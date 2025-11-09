@@ -48,26 +48,26 @@ export const profile_content = {
   },
   experience: [
     {
+      role: "Software Engineer",
+      company: "OpenEnvoy",
+      duration: "April 2024 — September 2025",
+      location: "Bengaluru, India",
+      achievements: [
+        "Developed Python integrations for QuickBooks, Oracle Fusion, FuelMe, and RentalMan ERPs.",
+        "Introduced weighted PostgreSQL write strategy to cut database load by 80%.",
+        "Optimised data synchronisation flows, reducing sync time by 50%.",
+      ],
+    },
+    {
       role: "Co-Founder & CTO",
       company: "QuickWage.in",
-      duration: "June 2023 — Present",
+      duration: "April 2023 — September 2024",
       location: "Remote",
       achievements: [
         "Shipped lending partner onboarding MVP to accelerate integrations with financial partners.",
         "Designed NestJS services with 99.9% uptime, backed by GitHub Actions + Kubernetes (Helm) deployments.",
         "Implemented HRMS platform reducing HR and accounting workload by roughly 60%.",
         "Led pilot rollout, investor pitches, and strategic fundraising initiatives.",
-      ],
-    },
-    {
-      role: "Software Engineer",
-      company: "OpenEnvoy",
-      duration: "April 2024 — September 2025",
-      location: "Remote",
-      achievements: [
-        "Developed Python integrations for QuickBooks, Oracle Fusion, FuelMe, and RentalMan ERPs.",
-        "Introduced weighted PostgreSQL write strategy to cut database load by 80%.",
-        "Optimised data synchronisation flows, reducing sync time by 50%.",
       ],
     },
     {
@@ -85,8 +85,8 @@ export const profile_content = {
     {
       role: "Software Engineer",
       company: "Open Financial",
-      duration: "August 2022 — September 2023",
-      location: "Remote",
+      duration: "August 2022 — April 2023",
+      location: "Bengaluru, India",
       achievements: [
         "Delivered lending products that accelerated growth 3× within two months.",
         "Built analytics-driven admin portal for real-time operations visibility.",
