@@ -198,7 +198,7 @@ export const profile_content = {
       summary:
         "Commercial MERN platform with real-time slot management, dynamic pricing, and operations analytics for a multi-sport facility network.",
       highlights: [
-        "Delivered live platform processing $200K+ annual transactions with 5K+ active users.",
+        "Delivered live platform processing $200K+ annual transactions with 50K+ active users.",
         "Built scheduling, pricing, and override dashboards lifting operational efficiency by ~70%.",
         "Implemented Razorpay payments, JWT authentication, Dockerised deployment, and participation analytics.",
       ],
