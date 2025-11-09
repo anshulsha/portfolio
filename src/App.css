@@ -478,6 +478,24 @@
   list-style: none;
 }
 
+.contact_social_link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact_icon_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
 .inline_link {
   color: var(--color-accent);
   font-weight: 600;

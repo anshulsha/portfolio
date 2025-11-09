@@ -12,6 +12,29 @@ function App() {
     { label: "Contact", href: "#contact" },
   ];
 
+  const social_icon_map = {
+    LinkedIn: (
+      <svg
+        className="contact_icon"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path d="M4.98 3.5a2.5 2.5 0 1 1-.02 5 2.5 2.5 0 0 1 .02-5Zm.02 6H2v11h3V9.5Zm5 0H7v11h3v-5.5c0-1.15.84-2 2-2 1.14 0 1.98.85 2 2V20.5h3v-6.5c0-2.97-1.67-4.5-4-4.5-1.95 0-3 .97-3.5 1.85h-.04V9.5Z" />
+      </svg>
+    ),
+    GitHub: (
+      <svg
+        className="contact_icon"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.01c-3.2.69-3.87-1.37-3.87-1.37-.53-1.36-1.29-1.72-1.29-1.72-1.06-.73.08-.72.08-.72 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.26 3.4.96.11-.76.41-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.69 0-1.26.46-2.29 1.2-3.09-.12-.29-.52-1.46.11-3.05 0 0 .98-.31 3.21 1.18a11.1 11.1 0 0 1 2.92-.39c.99 0 1.99.13 2.92.39 2.23-1.49 3.2-1.18 3.2-1.18.63 1.59.23 2.76.11 3.05.75.8 1.2 1.83 1.2 3.09 0 4.42-2.7 5.4-5.28 5.68.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" />
+      </svg>
+    ),
+  };
+
   return (
     <div className="page_shell">
       <header className="site_header">
@@ -238,12 +261,17 @@ function App() {
               {contact.social_links.map((link) => (
                 <li key={link.href}>
                   <a
-                    className="inline_link"
+                    className="inline_link contact_social_link"
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {link.label}
+                    {social_icon_map[link.label] && (
+                      <span className="contact_icon_wrapper" aria-hidden="true">
+                        {social_icon_map[link.label]}
+                      </span>
+                    )}
+                    <span>{link.label}</span>
                   </a>
                 </li>
               ))}
