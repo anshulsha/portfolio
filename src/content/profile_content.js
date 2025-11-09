@@ -232,7 +232,7 @@ export const profile_content = {
       live_links: [
         {
           label: "Woodlands House School",
-          href: "https://www.woodlandshouseschool.com",
+          href: "https://www.whssgr.com",
         },
       ],
     },
