@@ -1,7 +1,7 @@
 export const profile_content = {
   hero: {
     name: "Anshul Kumar Sharma",
-    title: "Software Engineer & Startup CTO",
+    title: "Software Engineer & Startup Co-Founder",
     summary:
       "Full-stack engineer delivering production-grade fintech, developer tooling, and workforce platforms. Blend of startup execution and enterprise-grade engineering with an eye on measurable business outcomes.",
     status:
