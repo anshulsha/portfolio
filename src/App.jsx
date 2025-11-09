@@ -219,7 +219,7 @@ function App() {
               {contact.email}
             </a>
           </div>
-          <div className="contact_row">
+          {/* <div className="contact_row">
             <span className="contact_label">Phone</span>
             <a
               className="inline_link"
@@ -227,7 +227,7 @@ function App() {
             >
               {contact.phone}
             </a>
-          </div>
+          </div> */}
           <div className="contact_row">
             <span className="contact_label">Location</span>
             <span className="body_text">{contact.location}</span>

@@ -239,7 +239,7 @@ export const profile_content = {
   ],
   contact: {
     email: "akshar18@asu.edu",
-    phone: "+1 (480) 531-3506",
+    // phone: "+1 (480) 531-3506",
     location: "Tempe, Arizona • Open To Remote",
     social_links: [
       {
