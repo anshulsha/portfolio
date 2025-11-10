@@ -174,9 +174,9 @@ export const profile_content = {
       summary:
         "Earned-wage access and HRMS platform enabling employers to offer on-demand pay, compliance-ready payroll flows, and financial education for the workforce.",
       highlights: [
-        "Built lender onboarding portal and API integrations to accelerate partner go-lives.",
-        "Designed NestJS services with 99.9% uptime, Kubernetes deployments, and automated compliance reporting.",
-        "Launched HRMS suite reducing HR and accounting workload by roughly 60% across pilot cohorts.",
+        "• Built lender onboarding portal and API integrations to accelerate partner go-lives.",
+        "• Designed NestJS services with 99.9% uptime, Kubernetes deployments, and automated compliance reporting.",
+        "• Launched HRMS suite reducing HR and accounting workload by roughly 60% across pilot cohorts.",
       ],
       tech_stack: [
         "NestJS",
@@ -198,9 +198,9 @@ export const profile_content = {
       summary:
         "Commercial MERN platform with real-time slot management, dynamic pricing, and operations analytics for a multi-sport facility network.",
       highlights: [
-        "Delivered live platform processing $200K+ annual transactions with 50K+ active users.",
-        "Built scheduling, pricing, and override dashboards lifting operational efficiency by ~70%.",
-        "Implemented Razorpay payments, JWT authentication, Dockerised deployment, and participation analytics.",
+        "• Delivered live platform processing $200K+ annual transactions with 50K+ active users.",
+        "• Built scheduling, pricing, and override dashboards lifting operational efficiency by ~70%.",
+        "• Implemented Razorpay payments, JWT authentication, Dockerised deployment, and participation analytics.",
       ],
       tech_stack: ["MongoDB", "Express", "React", "Node", "Razorpay", "Docker"],
       live_links: [{ label: "SportsHub", href: "https://www.whssportshub.in" }],
@@ -213,13 +213,13 @@ export const profile_content = {
       summary:
         "Corporate presence highlighting premium sports infrastructure, hospitality, and real-estate ventures with investor-ready storytelling.",
       highlights: [
-        "Developed a dynamic website for Woodlands House School, integrating admissions, curriculum info, events, and virtual tours.",
-        "Built separate secure login ports for students and parents, enhancing user-access and communication.",
-        "Designed mobile-responsive front-end using HTML, CSS, JavaScript so the site works smoothly on all devices.",
-        "Implemented CMS functionality for staff to update “Admissions open,” “Events,” and curriculum pages without developer help.",
-        "Integrated social media links (Instagram, Facebook) for the school’s community outreach and branding.",
-        "Optimized site performance and accessibility, ensuring quick load times and usability for all users (parents, students, staff).",
-        "Provided documentation and training to school staff to manage site content independently going forward.",
+        "• Developed a dynamic website for Woodlands House School, integrating admissions, curriculum info, events, and virtual tours.",
+        "• Built separate secure login ports for students and parents, enhancing user-access and communication.",
+        "• Designed mobile-responsive front-end using HTML, CSS, JavaScript so the site works smoothly on all devices.",
+        "• Implemented CMS functionality for staff to update “Admissions open,” “Events,” and curriculum pages without developer help.",
+        "• Integrated social media links (Instagram, Facebook) for the school’s community outreach and branding.",
+        "• Optimized site performance and accessibility, ensuring quick load times and usability for all users (parents, students, staff).",
+        "• Provided documentation and training to school staff to manage site content independently going forward.",
       ],
       tech_stack: [
         "NestJS",
