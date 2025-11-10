@@ -53,9 +53,9 @@ export const profile_content = {
       duration: "April 2024 — September 2025",
       location: "Bengaluru, India",
       achievements: [
-        "Developed Python integrations for QuickBooks, Oracle Fusion, FuelMe, and RentalMan ERPs.",
-        "Introduced weighted PostgreSQL write strategy to cut database load by 80%.",
-        "Optimised data synchronisation flows, reducing sync time by 50%.",
+        "• Developed Python integrations for QuickBooks, Oracle Fusion, FuelMe, and RentalMan ERPs.",
+        "• Introduced weighted PostgreSQL write strategy to cut database load by 80%.",
+        "• Optimised data synchronisation flows, reducing sync time by 50%.",
       ],
     },
     {
@@ -64,10 +64,10 @@ export const profile_content = {
       duration: "April 2023 — September 2024",
       location: "Remote",
       achievements: [
-        "Shipped lending partner onboarding MVP to accelerate integrations with financial partners.",
-        "Designed NestJS services with 99.9% uptime, backed by GitHub Actions + Kubernetes (Helm) deployments.",
-        "Implemented HRMS platform reducing HR and accounting workload by roughly 60%.",
-        "Led pilot rollout, investor pitches, and strategic fundraising initiatives.",
+        "• Shipped lending partner onboarding MVP to accelerate integrations with financial partners.",
+        "• Designed NestJS services with 99.9% uptime, backed by GitHub Actions + Kubernetes (Helm) deployments.",
+        "• Implemented HRMS platform reducing HR and accounting workload by roughly 60%.",
+        "• Led pilot rollout, investor pitches, and strategic fundraising initiatives.",
       ],
     },
     {
@@ -76,10 +76,10 @@ export const profile_content = {
       duration: "September 2023 — March 2024",
       location: "Remote",
       achievements: [
-        "Optimised customer data platform transformations in Python and JavaScript, lowering latency by 30%.",
-        "Automated Helm-based deployments on AWS EKS and strengthened CI/CD with GitHub Actions.",
-        "Instrumented Grafana dashboards to monitor HTTP latency and implemented Redis-backed state store for 3× faster access.",
-        "Ran K6 load testing with Grafana + InfluxDB to validate scale under high traffic.",
+        "• Optimised customer data platform transformations in Python and JavaScript, lowering latency by 30%.",
+        "• Automated Helm-based deployments on AWS EKS and strengthened CI/CD with GitHub Actions.",
+        "• Instrumented Grafana dashboards to monitor HTTP latency and implemented Redis-backed state store for 3× faster access.",
+        "• Ran K6 load testing with Grafana + InfluxDB to validate scale under high traffic.",
       ],
     },
     {
@@ -88,10 +88,10 @@ export const profile_content = {
       duration: "August 2022 — April 2023",
       location: "Bengaluru, India",
       achievements: [
-        "Delivered lending products that accelerated growth 3× within two months.",
-        "Built analytics-driven admin portal for real-time operations visibility.",
-        "Implemented Kafka + Freshworks event pipelines cutting issue resolution time by 40%.",
-        "Developed selfie and document capture flows that shifted processing to the frontend.",
+        "• Delivered lending products that accelerated growth 3× within two months.",
+        "• Built analytics-driven admin portal for real-time operations visibility.",
+        "• Implemented Kafka + Freshworks event pipelines cutting issue resolution time by 40%.",
+        "• Developed selfie and document capture flows that shifted processing to the frontend.",
       ],
     },
     {
@@ -100,9 +100,9 @@ export const profile_content = {
       duration: "February 2021 — August 2022",
       location: "Bengaluru, India",
       achievements: [
-        "Migrated legacy PHP tooling to React, reducing maintenance overhead by 40%.",
-        "Built onboarding APIs that helped enrol 2M+ customers for NiyoGlobal.",
-        "Launched onboarding web app and NiyoBharat dashboard from the ground up, supported by automated CI/CD and Jest/Tap coverage.",
+        "• Migrated legacy PHP tooling to React, reducing maintenance overhead by 40%.",
+        "• Built onboarding APIs that helped enrol 2M+ customers for NiyoGlobal.",
+        "• Launched onboarding web app and NiyoBharat dashboard from the ground up, supported by automated CI/CD and Jest/Tap coverage.",
       ],
     },
   ],
