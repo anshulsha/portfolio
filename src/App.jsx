@@ -1,4 +1,26 @@
 import "./App.css";
+import {
+  SiAmazonwebservices,
+  SiApachekafka,
+  SiDocker,
+  SiElasticsearch,
+  SiGithubactions,
+  SiGo,
+  SiGrafana,
+  SiHelm,
+  SiInfluxdb,
+  SiKubernetes,
+  SiNestjs,
+  SiPostgresql,
+  SiPrometheus,
+  SiPython,
+  SiRabbitmq,
+  SiReact,
+  SiRedis,
+  SiTerraform,
+  SiTypescript,
+} from "react-icons/si";
+import { FiActivity, FiCheckCircle, FiGitCommit, FiLayers } from "react-icons/fi";
 import { profile_content } from "./content/profile_content.js";
 
 function App() {
@@ -11,6 +33,32 @@ function App() {
     { label: "Projects", href: "#projects" },
     { label: "Contact", href: "#contact" },
   ];
+
+  const skills_icon_map = {
+    typescript: <SiTypescript className="skills_icon" />,
+    nestjs: <SiNestjs className="skills_icon" />,
+    react: <SiReact className="skills_icon" />,
+    go: <SiGo className="skills_icon" />,
+    python: <SiPython className="skills_icon" />,
+    aws: <SiAmazonwebservices className="skills_icon" />,
+    docker: <SiDocker className="skills_icon" />,
+    kubernetes: <SiKubernetes className="skills_icon" />,
+    helm: <SiHelm className="skills_icon" />,
+    terraform: <SiTerraform className="skills_icon" />,
+    github_actions: <SiGithubactions className="skills_icon" />,
+    postgresql: <SiPostgresql className="skills_icon" />,
+    kafka: <SiApachekafka className="skills_icon" />,
+    redis: <SiRedis className="skills_icon" />,
+    rabbitmq: <SiRabbitmq className="skills_icon" />,
+    influxdb: <SiInfluxdb className="skills_icon" />,
+    prometheus: <SiPrometheus className="skills_icon" />,
+    grafana: <SiGrafana className="skills_icon" />,
+    elasticsearch: <SiElasticsearch className="skills_icon" />,
+    cicd: <FiGitCommit className="skills_icon" />,
+    testing: <FiCheckCircle className="skills_icon" />,
+    load_testing: <FiActivity className="skills_icon" />,
+    design_patterns: <FiLayers className="skills_icon" />,
+  };
 
   const social_icon_map = {
     LinkedIn: (
@@ -168,9 +216,28 @@ function App() {
             <div key={group.category} className="skills_card">
               <h3 className="skills_category">{group.category}</h3>
               <ul className="skills_list">
-                {group.items.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
+                {group.items.map((item) => {
+                  const item_data =
+                    typeof item === "string"
+                      ? { label: item, icon: null }
+                      : item;
+                  return (
+                    <li
+                      key={item_data.label}
+                      className="skills_item"
+                    >
+                      {item_data.icon && skills_icon_map[item_data.icon] && (
+                        <span
+                          className="skills_icon_wrapper"
+                          aria-hidden="true"
+                        >
+                          {skills_icon_map[item_data.icon]}
+                        </span>
+                      )}
+                      <span>{item_data.label}</span>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           ))}

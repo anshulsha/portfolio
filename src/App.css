@@ -359,11 +359,35 @@
 
 .skills_list {
   margin: 0;
-  padding-left: 18px;
+  padding: 0;
+  list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
   color: var(--color-text-muted);
+}
+
+.skills_item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.skills_icon_wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  background-color: var(--color-accent-muted);
+  color: var(--color-accent);
+}
+
+.skills_icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
 }
 
 .projects_grid {
