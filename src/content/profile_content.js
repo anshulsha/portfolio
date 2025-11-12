@@ -170,7 +170,7 @@ export const profile_content = {
       slug: "quickwage-platform",
       name: "QuickWage Workforce Financial Wellness",
       role: "Co-Founder & CTO",
-      period: "June 2023 — Present",
+      period: "April 2023 — September 2024",
       summary:
         "Earned-wage access and HRMS platform enabling employers to offer on-demand pay, compliance-ready payroll flows, and financial education for the workforce.",
       highlights: [
