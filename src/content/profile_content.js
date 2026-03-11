@@ -8,7 +8,7 @@ export const profile_content = {
       "Open To Software Engineering Roles And High-Impact Freelance Engagements",
     primary_cta: {
       label: "Download Resume",
-      href: "https://drive.google.com/file/d/1532dyAKdclVxKowNw319tnUxFLLVsgNO/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1rawGt7Tr1owtJFoVzN0Vgawp2ksJYoo9/view?usp=sharing",
       target: "_blank",
     },
     secondary_cta: {
